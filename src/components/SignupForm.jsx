@@ -1,10 +1,19 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import "../CSS/SigninForm.css";
 
 const SignupForm = ({ handleClick }) => {
+  const [firstname, setFirstName] = useState("");
+  const [lastname, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const handleFirstNameChange = (e) => {
+    setFirstName(e.target.value);
+  };
+
+  const handleLastNameChange = (e) => {
+    setLastName(e.target.value);
+  };
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -24,6 +33,36 @@ const SignupForm = ({ handleClick }) => {
         boxSizing: "border-box",
       }}
     >
+      <div style={{ display: "flex" }}>
+        <div className="font size">
+          <label htmlFor="firstname" style={{ marginBottom: "4px" }}>
+            First Name:
+          </label>
+          <input
+            className="input"
+            style={{ marginBottom: "24px", width: "200px" }}
+            type="text"
+            placeholder="First Name"
+            value={firstname}
+            onChange={handleFirstNameChange}
+          />
+        </div>
+
+        <div className="font size">
+          <label htmlFor="lastname" style={{ marginBottom: "4px" }}>
+            Last Name:
+          </label>
+          <input
+            className="input"
+            style={{ marginBottom: "24px", width: "200px" }}
+            type="text"
+            placeholder="Last Name"
+            value={lastname}
+            onChange={handleLastNameChange}
+          />
+        </div>
+      </div>
+
       <div className="flex font size">
         <label htmlFor="email" style={{ marginBottom: "4px" }}>
           Email:
