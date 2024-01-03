@@ -31,7 +31,7 @@ const SigninSection = () => {
         }}
       >
         <div style={{ height: "16px" }} id="text4">
-          ------------- or Sign in with Email-------------{" "}
+          ------------- or Sign {signin ? "in" : "up"} with Email-------------{" "}
         </div>
       </div>
 
