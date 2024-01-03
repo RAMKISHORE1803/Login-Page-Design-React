@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Ubuntu:wght@700&display=swap');
+
+#container{
+    display: flex;
+}
+
+#left{
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#right{
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+    overflow-y: auto;
+}
+
+
+#text1{
+    color: #525252;
+    font-size: 36px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    word-wrap: break-word
+}
+ #text2{
+    color: #525252;
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    word-wrap: break-word
+ }
+ #text3{
+    color: #525252;
+    font-size: 14px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+ }
+ #text4{
+    color: #525252;
+    font-size: 12px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+ }
+
+

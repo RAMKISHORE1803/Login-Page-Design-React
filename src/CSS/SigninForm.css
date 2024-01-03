@@ -1,0 +1,54 @@
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.font{
+  color: #525252;
+    font-size: 14px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+.input{
+  box-sizing: border-box;
+  width: 420px;
+  height: 45px;
+  padding: 13px 10px 13px 10px;
+  border-radius: 5px;
+  border: 1px #DED2D9 solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button{
+  padding: 13px 10px 13px 10px;
+  color: white;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 800;
+  word-wrap: break-word;
+  background-color: #7F265B;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.footer1{
+  padding-left: 50px;
+  color: #828282;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+}
+
+.footer2{
+  color: #7F265B;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  cursor: pointer;
+}
