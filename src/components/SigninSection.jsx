@@ -11,7 +11,7 @@ const SigninSection = () => {
   };
 
   return (
-    <div style={{ width: "420px", height: "505px" }}>
+    <div id="signin-section" style={{ width: "420px", height: "505px" }}>
       <Text
         text1={signin ? "Login to your account" : "Create a new account"}
         text2={

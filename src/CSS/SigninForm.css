@@ -52,3 +52,32 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Existing CSS */
+
+/* Add the following media query for mobile screens */
+@media only screen and (max-width: 767px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #left {
+    display: none; /* Hide the left section on mobile */
+  }
+
+  #right {
+    width: 100vw; /* Take full width on mobile */
+    padding: 20px; /* Adjust padding for better spacing on mobile */
+    overflow-y: auto;
+  }
+
+  .input {
+    width: 100vw; /* Full width for input fields on mobile */
+  }
+
+  .submit-button {
+    margin-bottom: 20px; /* Adjust margin for the submit button on mobile */
+  }
+
+  /* Add any additional adjustments as needed for other components */
+}

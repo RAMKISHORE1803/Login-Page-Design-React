@@ -4,7 +4,7 @@ import heroimage from "../assets/hero.jpg";
 const LeftHero = () => {
   return (
     <div>
-      <img src={heroimage} style={{ maxWidth: "100%", height: "auto" }} />
+      <img src={heroimage} style={{ maxWidth: "50vw", height: "100vh" }} />
     </div>
   );
 };
