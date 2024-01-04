@@ -40,5 +40,5 @@ Dependencies
 - React
 - React Router (if navigation is extended in the future)
   
-Author
+# Author
 RamKishore
